@@ -14,7 +14,7 @@ permissions:
   - STORAGE_DOWNLOADS
 category: files
 name: Equinox
-version: "1.1.0-rc14"
+version: "1.1.0-rc15"
 tagline: A fast, tidy BitTorrent client
 icon: https://cdn.jsdelivr.net/gh/Ozzvin/umbrel-community-app-store@main/ozzvin-equinox/icon.svg
 description: >-
@@ -41,12 +41,14 @@ website: https://github.com/Ozzvin/equinox
 dependencies: []
 repo: https://github.com/Ozzvin/equinox
 support: https://github.com/Ozzvin/equinox/issues
-port: 8091
+port: 9095
 gallery: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  Unreleased in this store yet: see https://github.com/Ozzvin/equinox/blob/main/CHANGELOG.md
+  The app now opens at port 9095 instead of 8091 (8091 belongs to code-server): update your bookmarks.
+  A .torrent file lying on Umbrel can be added with "From the server…" in the add window.
+  Other changes: see https://github.com/Ozzvin/equinox/blob/main/CHANGELOG.md
 submitter: Ozzvin
 submission: ""
